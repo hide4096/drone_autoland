@@ -49,4 +49,4 @@ Telloドローンを地上のカメラで誘導して自動着陸させるプロ
 - Webカメラのドライバは[ros2_v4l2_camera](https://github.com/tier4/ros2_v4l2_camera)を使用しています。
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
-© 2022 Aso Hidetoshi
+© 2023 hide4096
