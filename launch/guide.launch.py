@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2023 Aso Hidetoshi asouhide2002@gmail.com
+# SPDX-License-Identifier: BSD-3-Clauseimport os
+
 import os
 import math
 from ament_index_python.packages import get_package_share_directory
