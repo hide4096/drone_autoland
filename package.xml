@@ -5,14 +5,12 @@
   <version>0.0.1</version>
   <description>Guide a drone</description>
   <maintainer email="asouhide2002@gmail.com">hide4096</maintainer>
-  <license>BSD-3-Clause</license>
+  <license>soiya</license>
 
   <exec_depend>rclpy</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>launch_ros</exec_depend>
-  <exec_depend>tello_ros</exec_depend>
-  <exec_depend>ros2_aruco_interfaces</exec_depend>
 
 
   <test_depend>ament_copyright</test_depend>
