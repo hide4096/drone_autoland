@@ -6,12 +6,6 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    aruco_params = os.path.join(
-        get_package_share_directory('ros2_aruco'),
-        'config',
-        'aruco_parameters.yaml'
-        )
-
     aruco_node = Node(
         package='drone_autoland',
         executable='aruco_detect',
