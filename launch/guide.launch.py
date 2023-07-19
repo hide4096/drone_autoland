@@ -17,7 +17,7 @@ def generate_launch_description():
     camera_pos_node = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
-        arguments=['0.0', '-0.1', '0.0', '0.0', str(math.radians(45)),'0.0', 'base_link', 'camera_pos']
+        arguments=['0.0', '0.0', '0.0', '0.0', '0.0','0.0', 'base_link', 'camera_pos']
     )
 
     controller = Node(

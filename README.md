@@ -8,7 +8,6 @@ Telloドローンを地上のカメラで誘導して自動着陸させるプロ
 ## Requirement
 - ROS2 Humble
 - [tello_ros](https://github.com/clydemcqueen/tello_ros)
-- [ros2_aruco](https://github.com/JMU-ROBOTICS-VIVA/ros2_aruco)
 - [ros2_v4l2_camera](https://github.com/tier4/ros2_v4l2_camera)
 
 次の環境で動作を確認しています
@@ -19,7 +18,6 @@ Telloドローンを地上のカメラで誘導して自動着陸させるプロ
 
 - Requirementにあるパッケージをインストールします
   - [tello_ros](https://github.com/clydemcqueen/tello_ros)
-  - [ros2_aruco](https://github.com/JMU-ROBOTICS-VIVA/ros2_aruco)
   - [ros2_v4l2_camera](https://github.com/tier4/ros2_v4l2_camera)
 
 - このリポジトリをクローンして、ビルドします
@@ -44,8 +42,6 @@ Telloドローンを地上のカメラで誘導して自動着陸させるプロ
 ## License
 
 - Telloの操作は[tello_ros](https://github.com/clydemcqueen/tello_ros)を使用しています。
-- Arucoマーカーの検知、生成は[ros2_aruco](https://github.com/JMU-ROBOTICS-VIVA/ros2_aruco)を使用しています。
-- ARマーカーの検出は[ar_track_alvar](https://github.com/ros-perception/ar_track_alvar)を使用しています。
 - Webカメラのドライバは[ros2_v4l2_camera](https://github.com/tier4/ros2_v4l2_camera)を使用しています。
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
