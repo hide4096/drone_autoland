@@ -5,6 +5,8 @@
 
 Telloドローンを地上のカメラで誘導して自動着陸させるプログラムです
 
+
+
 ## Requirement
 - ROS2 Humble
 - [tello_ros](https://github.com/clydemcqueen/tello_ros)
@@ -34,7 +36,7 @@ Telloドローンを地上のカメラで誘導して自動着陸させるプロ
     - Telloを地面に置いて電源を入れます
     - コンピューターをTelloが発しているアクセスポイントに接続します
   - 実行
-    次のコマンドを入力すると動作を開始します
+    - 次のコマンドを入力すると動作を開始します
     ```
     ros2 launch drone_autoland guide_drone
     ```
